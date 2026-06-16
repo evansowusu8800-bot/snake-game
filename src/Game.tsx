@@ -91,7 +91,7 @@ export default function Game({ onGameOver, levelIdx }: GameProps) {
                   border: isObstacle && !isSnake && !pred ? "1px solid #3d2800" : undefined,
                 }}
               >
-                {isFood && !pred && "🍎"}
+                {isFood && !pred && "🍌"}
                 {pred && "🐻"}
                 {isObstacle && !isFood && !isSnake && !pred && "🪨"}
               </div>
