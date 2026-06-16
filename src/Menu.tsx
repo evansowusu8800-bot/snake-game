@@ -21,7 +21,7 @@ export default function Menu({ lastScore, lastTime, isGameOver, onPlay }: MenuPr
   return (
     <div style={{ textAlign: "center", color: "#e0e0e0", minWidth: 280 }}>
       <h1 style={{ fontSize: "3rem", color: "#39ff14", letterSpacing: "0.2em", marginBottom: "0.25rem" }}>
-        LEXSNAKE
+        SNAKE
       </h1>
       <p style={{ color: "#333", fontSize: "0.75rem", letterSpacing: "0.3em", marginBottom: "2rem" }}>
         CLASSIC ARCADE
